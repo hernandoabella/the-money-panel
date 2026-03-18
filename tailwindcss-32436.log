@@ -1,0 +1,157 @@
+2025-11-26T18:30:47.845299Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-11-26T18:30:47.846113Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "G:\\GitHub\\the-money-panel\\client", pattern: "**/*", negated: false }
+2025-11-26T18:30:47.849669Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-11-26T18:30:47.849693Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "G:\\GitHub\\the-money-panel\\client" }
+2025-11-26T18:30:47.905440Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.907809Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app"
+2025-11-26T18:30:47.908003Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components"
+2025-11-26T18:30:47.908829Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard"
+2025-11-26T18:30:47.909079Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard\\DashboardCards.tsx"
+2025-11-26T18:30:47.909169Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\Sidebar.tsx"
+2025-11-26T18:30:47.909233Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\Topbar.tsx"
+2025-11-26T18:30:47.909319Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\globals.css"
+2025-11-26T18:30:47.909382Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\layout.tsx"
+2025-11-26T18:30:47.909450Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\page.tsx"
+2025-11-26T18:30:47.909531Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\eslint.config.mjs"
+2025-11-26T18:30:47.909604Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\next.config.ts"
+2025-11-26T18:30:47.909812Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\package.json"
+2025-11-26T18:30:47.909877Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\postcss.config.mjs"
+2025-11-26T18:30:47.909978Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public"
+2025-11-26T18:30:47.910248Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public\\file.svg"
+2025-11-26T18:30:47.910336Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public\\globe.svg"
+2025-11-26T18:30:47.910414Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public\\next.svg"
+2025-11-26T18:30:47.910530Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public\\vercel.svg"
+2025-11-26T18:30:47.910683Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public\\window.svg"
+2025-11-26T18:30:47.910783Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\README.md"
+2025-11-26T18:30:47.910887Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\tsconfig.json"
+2025-11-26T18:30:47.911037Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.911054Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.911068Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.911076Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 16 file(s)
+2025-11-26T18:30:47.945044Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\postcss.config.mjs"
+2025-11-26T18:30:47.945183Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\public\\window.svg"
+2025-11-26T18:30:47.945194Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\public\\vercel.svg"
+2025-11-26T18:30:47.945047Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\tsconfig.json"
+2025-11-26T18:30:47.945044Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\app\\layout.tsx"
+2025-11-26T18:30:47.945059Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\app\\components\\Sidebar.tsx"
+2025-11-26T18:30:47.945254Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\eslint.config.mjs"
+2025-11-26T18:30:47.945088Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\app\\components\\Topbar.tsx"
+2025-11-26T18:30:47.945148Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\next.config.ts"
+2025-11-26T18:30:47.945162Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\public\\file.svg"
+2025-11-26T18:30:47.945047Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard\\DashboardCards.tsx"
+2025-11-26T18:30:47.945081Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\app\\page.tsx"
+2025-11-26T18:30:47.945259Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\package.json"
+2025-11-26T18:30:47.964974Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\README.md"
+2025-11-26T18:30:47.971348Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\public\\globe.svg"
+2025-11-26T18:30:47.978374Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\public\\next.svg"
+2025-11-26T18:30:47.978511Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.978532Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.978538Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.979251Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.979271Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.979279Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.979283Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-26T18:30:47.979430Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\app\\globals.css"
+2025-11-26T18:30:47.979442Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.979452Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.979458Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.979560Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.979569Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.979908Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.980362Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.980376Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.981728Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app"
+2025-11-26T18:30:47.981904Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components"
+2025-11-26T18:30:47.982063Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard"
+2025-11-26T18:30:47.982805Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public"
+2025-11-26T18:30:47.983176Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.983271Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.983355Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.983362Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T18:30:47.984327Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app"
+2025-11-26T18:30:47.984485Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components"
+2025-11-26T18:30:47.984640Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard"
+2025-11-26T18:30:47.985313Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public"
+2025-11-26T18:30:47.985670Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T18:30:47.987966Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:16.879841Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:16.881069Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app"
+2025-11-26T18:31:16.881240Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components"
+2025-11-26T18:31:16.881403Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard"
+2025-11-26T18:31:16.881739Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\page.tsx"
+2025-11-26T18:31:16.882200Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public"
+2025-11-26T18:31:16.882581Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:16.882591Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:16.882596Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:16.882599Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-26T18:31:16.882662Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\app\\page.tsx"
+2025-11-26T18:31:16.882672Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:16.882677Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:16.882681Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:16.882899Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:16.882940Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:16.883055Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:16.883200Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:16.883207Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:16.884241Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app"
+2025-11-26T18:31:16.884401Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components"
+2025-11-26T18:31:16.884561Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard"
+2025-11-26T18:31:16.885244Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public"
+2025-11-26T18:31:16.885610Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:16.885693Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:16.885761Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:16.885770Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:31.686318Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:31.687673Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app"
+2025-11-26T18:31:31.687853Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components"
+2025-11-26T18:31:31.688035Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard"
+2025-11-26T18:31:31.688563Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\page.tsx"
+2025-11-26T18:31:31.689157Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public"
+2025-11-26T18:31:31.689707Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:31.689721Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:31.689726Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:31.689729Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-26T18:31:31.689841Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\app\\page.tsx"
+2025-11-26T18:31:31.689860Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:31.689866Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:31.689872Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:31.690182Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:31.690198Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:31.690247Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:31.690502Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:31.690511Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:31.691974Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app"
+2025-11-26T18:31:31.692149Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components"
+2025-11-26T18:31:31.692316Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard"
+2025-11-26T18:31:31.693033Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public"
+2025-11-26T18:31:31.693426Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:31.693535Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-26T18:31:31.693638Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-26T18:31:31.693644Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-26T18:38:03.228499Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T18:38:03.229863Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app"
+2025-11-26T18:38:03.230049Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components"
+2025-11-26T18:38:03.230218Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard"
+2025-11-26T18:38:03.230568Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\page.tsx"
+2025-11-26T18:38:03.231079Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public"
+2025-11-26T18:38:03.231606Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T18:38:03.231684Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-26T18:38:03.231691Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-26T18:38:03.231695Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-26T18:38:03.231801Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\the-money-panel\\client\\app\\page.tsx"
+2025-11-26T18:38:03.231819Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-26T18:38:03.231825Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-26T18:38:03.231831Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-26T18:38:03.232187Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-26T18:38:03.232207Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-26T18:38:03.232431Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-26T18:38:03.232801Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-26T18:38:03.232815Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-26T18:38:03.234837Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app"
+2025-11-26T18:38:03.235022Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components"
+2025-11-26T18:38:03.235187Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\app\\components\\dashboard"
+2025-11-26T18:38:03.236086Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\the-money-panel\\client\\public"
+2025-11-26T18:38:03.236472Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-26T18:38:03.236602Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-26T18:38:03.236702Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-26T18:38:03.236709Z  INFO get_globs: tailwindcss_oxide::scanner: exit
